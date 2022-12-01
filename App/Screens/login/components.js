@@ -7,7 +7,7 @@ import {
   View
 } from 'react-native';
 import LottieView from 'lottie-react-native';
-import icon from '../../Assets/stud.json';
+import icon from '../../Assets/logo.json';
 import password from '../../Assets/password.png';
 import email from '../../Assets/email.png';
 import CheckBox from '@react-native-community/checkbox';
@@ -38,11 +38,11 @@ export const LoginComponents = props => {
         <View style={styles.checkboxContainer}>
           <CheckBox
             value={isRememberMe}
-            onCheckColor={Colors.primaryColor}
-            tintColor={Colors.primaryColor}
-            onTintColor={Colors.primaryColor}
+            onCheckColor={Colors.secondaryColor}
+            tintColor={Colors.secondaryColor}
+            onTintColor={Colors.secondaryColor}
             boxType={'square'}
-            tintColors={Colors.primaryColor}
+            tintColors={Colors.secondaryColor}
             onValueChange={onClickRememberMe}
             style={{ height: 15, width: 15 }}
           />
@@ -84,8 +84,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center'
   },
   lottieButton: {
-    width: width * .5,
-    height: width * .5,
+    width: width * .55,
+    height: width * .55,
   },
   inputContainer: {
     marginHorizontal: 20,

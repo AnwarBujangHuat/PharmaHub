@@ -1,12 +1,14 @@
-// import { Appearance } from 'react-native';
-const colorScheme = 'Dark';
-// const colorScheme = Appearance.getColorScheme();
+import { Appearance } from 'react-native';
+// const colorScheme = 'Dark';
+const colorScheme = Appearance.getColorScheme();
 
 export const DarkMode = {
   theme: 'Dark',
   primaryColor: '#002147',
-  secondaryColor: '#1e5e99',
+  secondaryColor: '#76b8ff',
   tertiaryColor: '#DED8E1',
+  activeColor: '#002147',
+  inactiveColor: 'grey',
   lightPrimaryColor: '#894eff',
   primaryTextColor: '#fff',
   secondaryTextColor: '#e2d5f0',
@@ -21,15 +23,17 @@ export const DarkMode = {
 };
 export const LightMode = {
   theme: 'Light',
-  primaryColor: '#329DFF',
+  primaryColor: '#002147',
   secondaryColor: '#76b8ff',
   tertiaryColor: '#6d5a75',
+  activeColor: '#002147',
+  inactiveColor: 'grey',
   lightPrimaryColor: '#894eff',
   whitTextColor: '#fff',
   primaryTextColor: '#000',
   secondaryTextColor: '#1a004f',
   tertiaryTextColor: '#6d5a75',
-  backGroundColor: '#F7FAFD',
+  backGroundColor: '#fff',
   secondaryBackGroundColor: '#fff',
   greyBackground: '#F5F5F5',
   secondaryPurple: '#8e7dc4',

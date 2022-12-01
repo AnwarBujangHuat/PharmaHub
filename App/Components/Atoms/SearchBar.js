@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     width: width * .85
   },
   icons: {
-    tintColor: Colors.primaryColor,
+    tintColor: Colors.secondaryColor,
     height: 20,
     width: 20,
   },
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     shadowOpacity: .3,
     backgroundColor: Colors.secondaryBackGroundColor,
-    shadowColor: Colors.primaryColor,
+    shadowColor: Colors.secondaryColor,
     shadowRadius: 3,
     shadowOffset: {
       width: 0,

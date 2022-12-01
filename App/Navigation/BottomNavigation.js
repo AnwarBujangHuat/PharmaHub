@@ -23,13 +23,13 @@ const TabNavigator = () => (
         tabBarBackground: () => (
           <View style={{ paddingBottom: 20 }} />
         ),
-        tabBarActiveTintColor: '#329DFF',
-        tabBarInactiveTintColor: Colors.primaryTextColor,
+        tabBarActiveTintColor: Colors.activeColor,
+        tabBarInactiveTintColor: Colors.inactiveColor,
         tabBarIcon: ({ focused, color }) => {
           return <Image source={Icons[route.name]} style={{
             height: 20,
             width: 20,
-            tintColor: focused ? '#329DFF' : Colors.primaryTextColor
+            tintColor: focused ? Colors.activeColor : Colors.inactiveColor
           }} />;
         },
       })}

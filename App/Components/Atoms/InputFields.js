@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   icons: {
     flexDirection: 'row',
     alignSelf: 'center',
-    tintColor: Colors.primaryColor,
+    tintColor: Colors.secondaryColor,
     height: 25,
     width: 25,
     margin: 10,
